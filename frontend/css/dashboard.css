@@ -1,0 +1,6 @@
+.summary-card {
+  transition: transform 0.2s;
+}
+.summary-card:hover {
+  transform: translateY(-3px);
+}

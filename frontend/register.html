@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register — Finance Tracker</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/auth.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="auth-card">
+        <h1>💰 Finance Tracker</h1>
+        <h2>Create Account</h2>
+        <p class="subtitle">Start tracking your money today</p>
+
+        <div id="error-msg" class="error-msg"></div>
+        <div id="success-msg" class="success-msg"></div>
+
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" id="username" placeholder="Choose a username" />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" id="password" placeholder="Min 6 characters" />
+        </div>
+        <button class="btn-primary" onclick="registerUser()">
+          Create Account
+        </button>
+        <p class="switch-link">
+          Already have an account? <a href="index.html">Login</a>
+        </p>
+      </div>
+    </div>
+    <script src="js/auth.js"></script>
+  </body>
+</html>
